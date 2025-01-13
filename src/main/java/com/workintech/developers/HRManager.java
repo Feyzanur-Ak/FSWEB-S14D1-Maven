@@ -7,7 +7,7 @@ public class HRManager extends Employee {
     private String [] SeniorDeveloper;
 
 
-    public  HRManager(int id,String name,double salary,String [] JuniorDeveloper,String [] MidDeveloper,String [] SeniorDeveloper){
+    public  HRManager(int id,String name,double salary){
         super(id,name,salary);
         this.JuniorDeveloper= JuniorDeveloper;
         this.MidDeveloper= MidDeveloper;
